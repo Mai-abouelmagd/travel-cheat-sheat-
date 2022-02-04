@@ -1,0 +1,72 @@
+body{
+    background-image:url(../images/Blue\ Sky.jfif);
+    background-size:cover;
+	background-repeat:no-repeat;
+	height:500px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body {
+	height: 100%;
+	margin: 0;
+  }
+.container{
+	width:100%;
+	margin:auto;
+}
+/*Start navbar*/
+/*left side*/
+.header .navbar{
+	background-color:#252F31;
+	color:#fff;
+	overflow:hidden;
+    text-transform:uppercase;
+    height:70px;
+}
+.header .navbar img{ width:150px; height:85px;}
+.header .navbar img,
+.header .navbar h2{float:left; font-size:30px;}
+.header .navbar h2 span{color:rgb(200, 208, 255);}
+.header .navbar h2:hover{color:rgb(200, 208, 255);}
+/*right side*/
+.header .navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+    float:right;
+    margin-top:15px;
+
+}
+.header .navbar ul li{
+	float:left;
+	padding:10px;
+}
+.header .navbar ul li a{
+	text-decoration:none;
+    color:#FFF;
+    font-size:20px;
+    font-weight:bold;
+}
+.header .navbar ul li a span{color:rgb(200, 208, 255);}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color:rgb(200, 208, 255);}
+/*End navbar*/
+/*Start main*/
+.main a img{width:45%;height:20%; margin-bottom:0;}
+.main a img:hover{width:600px;height:300px; transition:0.2s;}
+/*End main*/
+/*start footer*/
+.footer{
+	background-color:transparent;
+	color:#6A6E71;
+	padding:30px 0;
+	text-align:center;
+	margin-top:8rem;
+}
+.footer ul{
+	list-style:none;
+	padding-left:0;
+}
+.footer ul li{
+	display:inline-block;
+}
+/*end footer*/

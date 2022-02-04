@@ -1,0 +1,94 @@
+body{
+    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+/*Start navbar*/
+/*left side*/
+.header .navbar {
+	background-color:#7eafb9;
+	color:#fff;
+	overflow:hidden;
+    text-transform:uppercase;
+    height:60px;
+}
+.header .navbar img{ width:150px; height:85px;}
+.header .navbar img,
+.header .navbar h2{float:left; font-size:30px;}
+.header .navbar h2 span{color:rgb(200, 208, 255);}
+.header .navbar h2:hover{color:rgb(200, 208, 255);}
+/*right side*/
+.header .navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+    float:right;
+    margin-top:15px;
+
+}
+.header .navbar ul li{
+	float:left;
+	padding:10px;
+}
+.header .navbar ul li a{
+	text-decoration:none;
+    color:#FFF;
+    font-size:20px;
+    font-weight:bold;
+}
+.header .navbar ul li a span{color:rgb(200, 208, 255);}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color:rgb(200, 208, 255);}
+/*End navbar*/
+.contact-form{
+    background: #fff;
+    margin-top:3%;
+    margin-left: 5%;
+    width: 90%;
+}
+.contact-form .form-control{
+    border-radius:4rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+    padding: 17%;
+}
+.contact-form form .row{
+    margin-bottom: -10%;
+}
+.contact-form h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:35px;
+    margin-top: -10%;
+    text-align: center;
+    color: #0062cc;
+}
+.right-side .form-group .rest{
+    width: 50%;
+    border-radius: 10rem;
+    margin-bottom:2%;
+    padding: 3%;
+    background: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-side .form-group .button {
+    width: 50%;
+    border: none;
+    border-radius: 2rem;
+    padding: 1.5%;
+    background: #425772;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+   
+}
+.left-side .form-group .form-control {padding-bottom:20%; border-radius:5rem;}
+.right-side{width: 50%; float:left;}
+.left-side{width: 50%; float:right;}

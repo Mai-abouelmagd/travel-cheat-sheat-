@@ -1,0 +1,84 @@
+*{  height:10vmax;}
+body{
+    background:url(../../images/Blue\ Sky.jfif);
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow:hidden;
+    width:100%;
+    margin:0;
+}
+/*Start navbar*/
+/*left side*/
+.header .navbar{
+    margin:0;
+    padding-bottom:0;
+	background-color:#252F31;
+	color:#fff;
+	overflow:hidden;
+    text-transform:uppercase;
+    height:5rem;
+}
+.header .navbar img{padding:0; width:9.3rem; height:5rem;}
+.header .navbar img,
+.header .navbar h2{float:left; font-size:1.9rem; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.header .navbar h2 span{color:rgb(200, 208, 255);}
+.header .navbar h2:hover{color:rgb(200, 208, 255);}
+/*right side*/
+.header{margin:0; padding:0;}
+.header h3{text-align:center; font-size:2rem; color:#252F31; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+.header .navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+    float:right;
+    margin-top:1.5rem;
+
+}
+.header .navbar ul li{
+	float:left;
+	padding:0.5rem;
+}
+.header .navbar ul li a{
+	text-decoration:none;
+    color:#FFF;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.3rem;
+    font-weight:bold;
+}
+.header .navbar ul li a span{color:rgb(200, 208, 255);}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{color:rgb(200, 208, 255);}
+/*End navbar*/
+.cards1,
+.cards2,
+.cards3{
+    display:flex;
+    flex-wrap:wrap;
+    transition:0.2s;
+    
+}
+
+.card{
+    background:transparent;
+    padding:4rem;
+   
+}
+.cards1 .card img,
+.cards2 .card img,
+.cards3 .card img{
+    height:42vh; 
+    width:35vh; 
+    border-radius:2rem;
+    margin-left:-6rem;
+    max-height:100%;
+    box-shadow: 4px 4px 15px 2px rgba(0,0,0,0.75);
+    
+}
+.card:not(:first-child){margin-left:-8rem;}
+.card:hover{
+    transition:0.2s;
+    transform:translateY(-1rem);
+}
+.card:hover ~ .card{
+    transform:translateX(4rem);
+}
